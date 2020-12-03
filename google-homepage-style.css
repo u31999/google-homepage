@@ -1,0 +1,150 @@
+/*The top google nav bar verticaly*/
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+li {
+    float: right;
+    font-size: 14px;
+    font-family: sans-serif, Arial;
+}
+li a{
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline rgba(0,0,0,0.87);
+}
+#grid{
+    height: 20px;
+    padding: 8px;
+    position: relative;
+    top: -8px;
+}
+#grid:hover{
+    border: hidden;
+    border-radius: 50%;
+    background-color : #d7d8d9;   
+}
+.sign-button{
+    color: #fff;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+    border-radius: 3px;;
+}
+.sign-button:hover{
+    box-shadow: 1px 1px 2px 1px  #1a73e8;
+    opacity: 0.9;
+}
+
+/*Google logo and and search bar*/
+#logo img{
+    display: block;
+    margin: auto;
+    margin-top: 67px;
+    margin-bottom: 20px;
+}
+
+#logo input{
+    display: block;
+    margin: auto;
+    height: 45px;
+    width: 575px;
+    border:1px solid #dcdcdc;
+    border-radius: 30px;
+    font-size: 16px;
+    text-indent: 30px;
+    padding-right: 55px;
+    outline: none;
+    background-color: #f2f2f2;
+}
+.bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+#voice{
+    display: inline;
+    height: 20px;
+    position: relative;
+    top:-102px;
+    left: 280px;
+}
+
+/*Google search-luck buttons*/
+.center-buttons {
+    text-align: center;
+    position:relative;
+    top: -35px;
+}
+.link-decore{
+    text-decoration: none;
+}
+.search-button{
+    color: #3c4043;
+    margin-right: 5px;
+    outline: none;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.luck-button{
+   margin-left: 5px;
+   color: #3c4043;
+   outline: none;
+   padding: 10px 15px;
+   background-color: #f8f9fa;
+   border: 1px solid transparent;
+   border-radius: 3px;
+}
+.button-hover:hover{
+    box-shadow: 1px 3px 3px 1px #f8f9fa;
+    border: 0.1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/*Google footer*/
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+footer a{
+    font-size: 14px;
+    color: #70757a;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+}
+footer a:hover{
+    text-decoration: underline #70757a;
+    cursor: pointer;
+}
+#left-nav{
+    text-align: left;
+    position: relative;
+    bottom: -10px;
+    left: 30px;
+}
+#right-nav{
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}

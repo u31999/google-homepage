@@ -1,0 +1,3 @@
+- This is a design clone for google search home page.
+- Made by using only Html and Css, without any frameworks.
+- The page have no function, just design, for learning purpose.
